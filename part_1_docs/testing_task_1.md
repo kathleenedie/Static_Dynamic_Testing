@@ -15,8 +15,8 @@ Only comment on errors that would stop the tests running.
 ```python
 
 class CardGame:
-
-  # there is a syntax error; 
+  # there are syntax errors; 
+  # line 22 should be ==
   # line 24 the else should be followed by a :
   def check_for_ace(self, card):
     if card.value = 1:
@@ -36,10 +36,10 @@ class CardGame:
     return card2
   
 
-
-# a value needs to be assigned to the total variable (total = 0)
-# return needs to be contained in () and total value (which would be a integer) converted to a string i.e.
+# a value needs to be assigned to the total variable in line 44 (total = 0)
+# line 47 return needs to be contained in () and total value (which would be a integer) converted to a string
 # i.e. return ("You have a total of" + int(total))
+# line 47 indent to be in line with line 45 for
 def cards_total(self, cards):
   total
   for card in cards:
